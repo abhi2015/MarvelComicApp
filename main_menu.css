@@ -1,0 +1,39 @@
+section{
+  width: 100%;
+  float: left;
+}
+header{
+  display: block;
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.grid{
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+  position: relative;
+  float: left;
+  margin-left: 6%;
+  margin-top: 6%;
+  width: 41%;
+  padding-bottom: 33%;
+  border: 1px solid black;
+  text-align: center;
+}
+.grid:hover{
+  box-shadow: 0px 0px 1px 1px black;
+}
+.gridheader{
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  width: 100%;
+  height: 20%;
+  font-size: calc(100%);
+}

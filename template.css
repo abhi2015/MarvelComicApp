@@ -1,0 +1,27 @@
+.container
+{
+  margin: auto;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+header
+{
+  width:100%;
+  float:left;
+  font-size: 150%;
+  background-color: rgb(218, 12, 12);
+}
+.icon{
+  width: 8%;
+  float: left;
+}
+.icon:hover
+{
+  box-shadow:inset 0px 0px 1px 1px white;
+}
+.title{
+  width:80%;
+  float: left;
+  text-align: left;
+  margin-left: 8%;
+}
