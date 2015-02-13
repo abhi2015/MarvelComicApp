@@ -1,34 +1,40 @@
 <html>
 <head>
   <title>Template</title>
-  <link rel="stylesheet" type="text/css" href="img.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/img.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-</head>
-<body>
-  
-    <header>
-      <div class="icon">
-        <i class="icon fa fa-chevron-left">
-        </i>
-      </div>
-      <span class="title">Marvel App
-      </span>
-    </header>
-    <section>
-      <div class="imgcontainer">
-        <img class="img" src="hulk.jpg"/>
-        <div class="text">
-        <p>The Hulk</p>
-        </div>
-      
-      </div>
-      <div class="cardcontainer">
-        <div class="card1"><p>The Incredible hulk</p></div>
-        <div class="card2"><p>The Avengers </p></div>
-      </div>
+  <link rel="stylesheet" type="text/css" href="css/appbar.css">
 
-    </section>
+
+  <script type="text/javascript" src="js/transitions.js"></script>
+  
+</head>
+
+<body>
+<header id ="appbar" class="app-bar paper-toolbar paper-shadow">
+ <div class="app-bar-container paper-toolbar">
+   <button class="menu"><img src="img/back.png" alt="Menu">
+   </button>
+   <h1 class="appbar-heading">Appbar</h1>
+ </div>
+</header>
+<div class="container">
+ <div class="imgcontainer">
+    <div class="img"></div>
+    <div class="text">
+      <p>The Hulk</p>
+    </div>
+
+  </div>
+  <div class="cardcontainer">
+    <div class=" card card1"><p class="charinfo">The Incredible hulk </p></div>
+    <div class=" card card2"><p>The Avengers </p></div>
+
+
+  </div>
+
+</div>
 
 </body>
 </html>
