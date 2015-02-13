@@ -8,4 +8,6 @@ function fetchdata(url)
   },
   
 })
+
+    alert(response.text);
 }
