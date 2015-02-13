@@ -20,16 +20,20 @@
  </div>
 </header>
 <div class="container">
- <div class="imgcontainer">
-    <div class="img"></div>
-    <div class="text">
+ <div class="imgcontainer" id="image" onmouseover="opaque(contain)" onmouseout="normal(contain)">
+    <div class="img" id="charimg"></div>
+    <div class="text" id="charname">
       <p>The Hulk</p>
     </div>
 
   </div>
-  <div class="cardcontainer">
-    <div class=" card card1"><p class="charinfo">The Incredible hulk </p></div>
-    <div class=" card card2"><p>The Avengers </p></div>
+  <div class="cardcontainer" id="contain">
+    <div class=" card1"><p class="charinfo" id="charinfo">The Incredible hulk </p></div>
+    <div class=" card2">
+    
+    <ul id="charmovies"><li>The Avengers</li>
+    <li>Wolverine</li>
+    </ul>
 
 
   </div>

@@ -14,6 +14,7 @@ div.imgcontainer{
 
 div.cardcontainer{
   overflow:hidden;
+
 }
 
 
@@ -58,12 +59,33 @@ div.cardcontainer{
  -webkit-filter: brightness(110%);
  -moz-filter: brightness(110%);
 }
+.card1:active{
+ box-shadow: 0 15px 20px rgba(10,0,10,.3);
+ -webkit-filter: brightness(110%);
+ -moz-filter: brightness(110%);
+}
+.card2:active{
+ box-shadow: 0 15px 20px rgba(10,0,10,.3);
+ -webkit-filter: brightness(110%);
+ -moz-filter: brightness(110%);
+}
+
 
 .img{
   background: url("hulk.jpg") no-repeat center;
   background-size: cover;
   position: relative;
   height: 100%;
+  transition: all 1.5s ease;
+}
+.img:hover{
+  z-index: 1;
+  height:130%;
+
+}
+.img:active{
+  z-index: 1;
+  height:130%;
 }
 .text{
   position: absolute;
@@ -79,4 +101,15 @@ div.cardcontainer{
 .charinfo{
   font-family: Roboto, 'Helvetica Neue', Helvetica, Arial;
 
+
 }
+li{
+  padding-bottom:8px;
+  border-bottom: 1px dotted black;
+}
+ul{
+   list-style-type: none;
+   padding: 0px;
+
+}
+
