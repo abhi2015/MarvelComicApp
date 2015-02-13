@@ -9,6 +9,7 @@ section{
 .grid{
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   float: left;
   margin-left: 2%;
