@@ -2,14 +2,14 @@
 <html>
 <head>
   <title>Main Menu</title>
-  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="template.css">
-  <link rel="stylesheet" type="text/css" href="main_menu.css">
-  <link rel="stylesheet" type="text/css" href="appbar.css">
-  <script type="text/javascript" src="transitions.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main_menu.css">
+  <link rel="stylesheet" type="text/css" href="css/appbar.css">
+  <script type="text/javascript" src="js/data_fetch.js"></script>
+  <script type="text/javascript" src="js/transitions.js"></script>
 </head>
-<body>
+<body onload="populateSeriesPage()">
   <div class="container" >
   <header id ="appbar" class="app-bar paper-toolbar paper-shadow">
        <div class="app-bar-container paper-toolbar">
@@ -18,57 +18,14 @@
            <h1 class="appbar-heading">Marvel Comic Series</h1>
        </div>
    </header>
-    <section>
-      <a href="#" id="gridid">
-        <div id="gridimagethumb" class="grid" style="background-image: url('icons/spiderman.png');">
-          <span id="gridimagetitle" class="gridheader">Spiderman</span>
+    <section id="sec0">
+      
+      <a href="#" style="display: none">
+        <div  class="grid" style="background-image: url('sample');">
+          <span  class="gridheader"> text</span>
         </div>
       </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/xmen.jpg');">
-          <span class="gridheader">X-Men</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/spiderman.png');">
-          <span class="gridheader">Spiderman</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/spiderman.png');">
-          <span class="gridheader">Spiderman</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/spiderman.png');">
-          <span class="gridheader">Spiderman</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/spiderman.png');">
-          <span class="gridheader">Spiderman</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/spiderman.png');">
-          <span class="gridheader">Spiderman</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/spiderman.png');">
-          <span class="gridheader">Spiderman</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/spiderman.png');">
-          <span class="gridheader">Spiderman</span>
-        </div>
-      </a>
-      <a href="#">
-        <div class="grid" style="background-image: url('icons/spiderman.png');">
-          <span class="gridheader">Spiderman</span>
-        </div>
-      </a>
+      
     </section>
   </div>
 </body>
