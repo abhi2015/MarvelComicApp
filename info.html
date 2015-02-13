@@ -11,7 +11,7 @@
   
 </head>
 
-<body>
+<body ontouchstart="">
 <header id ="appbar" class="app-bar paper-toolbar paper-shadow">
  <div class="app-bar-container paper-toolbar">
    <button class="menu"><img src="img/back.png" alt="Menu">
@@ -20,7 +20,7 @@
  </div>
 </header>
 <div class="container">
- <div class="imgcontainer" id="image" onmouseover="opaque(contain)" onmouseout="normal(contain)">
+ <div class="imgcontainer" id="image" onmouseover ="opaque(contain)" onmouseout="normal(contain)" ontouchstart="opaque(contain)" ontouchend="normal(contain)">
     <div class="img" id="charimg"></div>
     <div class="text" id="charname">
       <p>The Hulk</p>

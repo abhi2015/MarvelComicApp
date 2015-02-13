@@ -10,10 +10,14 @@ div.imgcontainer{
   box-shadow: 0px 0px 2px 2px black;
 
 
+
 }
 
 div.cardcontainer{
   overflow:hidden;
+  -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   transition: all 1s ease;
 
 }
 
@@ -24,7 +28,7 @@ div.cardcontainer{
    display: block;
    position: relative;
    width: 70%;
-   height: 100px;
+   height: auto;
    background-color: #ffffff ;
    margin: 16px auto;
    padding: 24px;
@@ -39,13 +43,13 @@ div.cardcontainer{
    display: block;
    position: relative;
    width: 70%;
-   height: 100px;
+   height: auto;
    background-color: #ffffff ;
    margin: 16px auto;
    padding: 24px;
-   -webkit-transition: all .5s ease;
-   -moz-transition: all .5s ease;
-   transition: all .5s ease;
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   transition: all 1s ease;
    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -76,16 +80,19 @@ div.cardcontainer{
   background-size: cover;
   position: relative;
   height: 100%;
-  transition: all 1.5s ease;
+  transition: all 1s ease;
 }
 .img:hover{
   z-index: 1;
   height:130%;
+  box-shadow: 0 15px 20px rgba(10,0,10,.3);
 
 }
 .img:active{
   z-index: 1;
   height:130%;
+  box-shadow: 0 15px 20px rgba(10,0,10,.3);
+
 }
 .text{
   position: absolute;
