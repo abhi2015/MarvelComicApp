@@ -32,14 +32,19 @@ section{
 }
 .title{
   width: 30%;
-  margin-left: 15%;
+  margin-left: 10%;
   font-size: 200%;
 }
 .icon{
+  clear: left;
   width: 50%;
+  height: 50px;
   -o-background-size: 100% 100%, auto;
   -moz-background-size: 100% 100%, auto;
   -webkit-background-size: 100% 100%, auto;
   background-size: 100% 100%, auto;
-  clear: left;
+}
+.icon:hover
+{
+  box-shadow:inset 0px 0px 1px 1px white;
 }
