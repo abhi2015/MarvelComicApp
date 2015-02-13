@@ -32,15 +32,23 @@ function displayCharacters() {
             console.log(data.data.results[i].name);
             var elem = document.createElement("div");
             elem.class = "element";
+
+            var imgNew = document.createElement("div");
+            imgNew.setAttribute('class','photo')
+
             var characterNameNew = document.createElement("span");
-            characterNameNew.class = "character";
+            characterNameNew.setAttribute('class','character');
+
+
             elem.appendChild(characterNameNew);
+            elem.appendChild(imgNew);
+
             characterNameNew.innerHTML = data.data.results[i].name;
             var section = document.getElementById("sec1");
             section.appendChild(elem);
             console.log("breakpoint");
             i++;
-        }
+          }
 
     }, function(status) {
         alert('Something went wrong.');
