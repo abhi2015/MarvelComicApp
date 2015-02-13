@@ -5,7 +5,7 @@ function scroll() {
     document.getElementById("appbar").style.top = (-(scrollValue / 3)).toString() + "px";
 };
 
-function big(x) {
+/*function big(x) {
     x.style.height="17%";
 		x.style.width = "17%";
 		x.style.paddingTop="17%";
@@ -20,4 +20,5 @@ function normal(x)
 	x.style.zIndex=0;
 
 }
+*/
 
