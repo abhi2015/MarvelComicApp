@@ -8,11 +8,11 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/appbar.css">
 
-	<script src="js/transitions.js">
-	</script>
+	<script src="js/transitions.js"></script>
+	<script src="js/secondpage.js"></script>
 </head>
 
-<body>
+<body onload="displayCharacters()">
 	<div class="container">
 			<header id ="appbar" class="app-bar paper-toolbar paper-shadow">
        <div class="app-bar-container paper-toolbar">
@@ -26,7 +26,7 @@
 
 			<div class="element" id="row">
 				<div id="cimage" class="photo" onmouseover="big(this)" onmouseout="normal(this)" onmouseout="normal(this)"></div>
-				<span id="character-name" class="character">Bruce Banner</span>
+				<span id="character-name" class="character"></span>
 			</div>
 
 
