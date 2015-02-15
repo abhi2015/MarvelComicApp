@@ -28,3 +28,5 @@ document.getElementById("image").addEventListener("touchstart", function(){
 document.getElementById("image").addEventListener("touchend", function(){
     document.getElementById("contain").style.marginTop="0px";
 });
+
+

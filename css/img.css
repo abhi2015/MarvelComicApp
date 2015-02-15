@@ -30,7 +30,7 @@ div.cardcontainer{
    width: 70%;
    height: auto;
    background-color: #ffffff ;
-   margin: 16px auto;
+   margin: 34px auto;
    padding: 24px;
    -webkit-transition: all .5s ease;
    -moz-transition: all .5s ease;
@@ -119,4 +119,39 @@ ul{
    padding: 0px;
 
 }
+.imgbutton{
+  position: absolute;
+  display: inline-block;
+  left:70%;
+  
+  top:80%;
+}
+.button {
+  background: #1565C0;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0.75em 2em;
+  line-height: 1;
+  box-shadow: 0 0 0.25em rgba(0,0,0,0.5);
+  text-shadow: 0 0 0.25em rgba(0,0,0,0.5);
+  font-size: 1.5rem;
+  
+
+}
+
+.button-round {
+  border-radius: 100%;
+  padding: 0.75em;
+  width: 3em;
+  height: 3em;
+}
+.button-ripple {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+
 
