@@ -8,6 +8,7 @@ div.imgcontainer{
   width:100%;
   position:relative;
   box-shadow: 0px 0px 2px 2px black;
+  background-repeat: no-repeat;
 
 
 
@@ -164,7 +165,7 @@ ul{
   overflow: hidden;
   margin-right: 0%;
   position: absolute;
-  left: 25;
+  left: 31;
   height: 0px;
   bottom: 14;
 }
