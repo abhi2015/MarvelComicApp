@@ -21,6 +21,8 @@ function normal(x)
   x.style.marginTop="0px";
 
 }
+
+
 document.getElementById("image").addEventListener("touchstart", function(){
     document.getElementById("contain").style.marginTop="100px";
 });
@@ -28,5 +30,6 @@ document.getElementById("image").addEventListener("touchstart", function(){
 document.getElementById("image").addEventListener("touchend", function(){
     document.getElementById("contain").style.marginTop="0px";
 });
+
 
 
