@@ -10,7 +10,7 @@ div.imgcontainer{
   position:relative;
   box-shadow: 0px 0px 2px 2px black;
 
-
+  background-repeat: no-repeat;
 
 }
 
@@ -75,17 +75,19 @@ div.cardcontainer{
 
 
 .img{
-
   position: relative;
   height: 100%;
+  background-repeat: no-repeat;
   transition: all 1s ease;
 }
+
 .img:hover{
   z-index: 1;
   height:130%;
   box-shadow: 0 15px 20px rgba(10,0,10,.3);
 
 }
+
 .img:active{
   z-index: 1;
   height:130%;
@@ -123,7 +125,6 @@ ul{
   position: absolute;
   display: inline-block;
   left:70%;
-  
   top:80%;
 }
 .button {
@@ -153,9 +154,6 @@ ul{
   overflow: hidden;
   
 }
-
-
-
 
 span{
   font-weight: 600;
