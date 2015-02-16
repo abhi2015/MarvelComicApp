@@ -1,0 +1,75 @@
+
+body {
+  background-color: white;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial;
+  line-height: 1.4em;
+}
+
+p{
+  margin-top: 100px;
+}
+
+.paper-shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.paper-toolbar {
+  color: #fff;
+  background: #dd191d;
+}
+
+.app-bar, .navdrawer-container, main {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.app-bar-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.app-bar {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+
+.app-bar .appbar-heading {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 1.3em;
+  margin: 0 16px;
+  padding: 0;
+  color: #fefefe;
+  float: none;
+  max-width: none;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+.app-bar button {
+  width: 64px;
+  height: 64px;
+  background-image: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+button.menu img {
+  height: 24px;
+  width: 24px;
+}
