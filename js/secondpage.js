@@ -39,9 +39,9 @@ function displayCharacters() {
             var characterNameNew = document.createElement("span");
             characterNameNew.setAttribute('class','character');
 
-
-            elem.appendChild(characterNameNew);
             elem.appendChild(imgNew);
+            elem.appendChild(characterNameNew);
+            
 
             characterNameNew.innerHTML = data.data.results[i].name;
             var section = document.getElementById("sec1");

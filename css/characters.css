@@ -59,7 +59,7 @@ section .element
 	float:left;
 	padding-top:15%;
 	position:relative;
-	margin:5%;
+	margin:2%;
 	z-index:0;
 	-webkit-transition: all 1s ease;
    -moz-transition: all 1s ease;
