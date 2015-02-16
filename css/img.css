@@ -10,6 +10,8 @@ div.imgcontainer{
   position:relative;
   
   background-repeat: no-repeat;
+  transition: all 1s ease;
+  
 
 
 
@@ -76,20 +78,23 @@ div.cardcontainer{
 
 
 .img{
+ 
 
   position: relative;
   height: 100%;
   transition: all 1s ease;
 }
-.img:hover{
+.imgcontainer:hover{
+  
   z-index: 1;
-  height:130%;
+  height:70%;
   box-shadow: 0 15px 20px rgba(10,0,10,.3);
 
 }
-.img:active{
+.imgcontainer:active{
+ 
   z-index: 1;
-  height:130%;
+  height:70%;
   box-shadow: 0 15px 20px rgba(10,0,10,.3);
 
 }
