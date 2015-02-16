@@ -18,7 +18,7 @@ function displayCharacters() {
     };
 
 
-var jsonfile = getQueryVariable("json");
+var jsonfile = getQueryVariable("jsonfile");
 
 function getQueryVariable(variable) {
   var query = window.location.search.substring(1);
@@ -55,9 +55,9 @@ function getQueryVariable(variable) {
             var characterNameNew = document.createElement("span");
             characterNameNew.setAttribute('class','character');
 
-
+             elem.appendChild(imgNew);
             elem.appendChild(characterNameNew);
-            elem.appendChild(imgNew);
+           
 
             characterNameNew.innerHTML = data.data.results[i].name;
             var section = document.getElementById("sec1");
