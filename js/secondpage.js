@@ -18,7 +18,23 @@ function displayCharacters() {
     };
 
 
-    getJSON("data/spiderman.json").then(function(data) {
+var jsonfile = getQueryVariable("jsonfile");
+
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if (pair[0] == variable) {
+      alert("got "+pair[1]);
+      return pair[1];
+    }
+  } 
+  alert('Query Variable ' + variable + ' not found');
+}
+
+
+    getJSON("data/"+jsonfile).then(function(data) {
 
         var name = document.getElementById("character-name");
         name.innerHTML = data.data.results[0].name;
@@ -39,9 +55,10 @@ function displayCharacters() {
             var characterNameNew = document.createElement("span");
             characterNameNew.setAttribute('class','character');
 
+
             elem.appendChild(imgNew);
             elem.appendChild(characterNameNew);
-            
+           
 
             characterNameNew.innerHTML = data.data.results[i].name;
             var section = document.getElementById("sec1");
