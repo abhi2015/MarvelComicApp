@@ -17,8 +17,6 @@ div.cardcontainer{
 
 }
 
-
-
 .card1 {
   
    display: block;
@@ -39,7 +37,7 @@ div.cardcontainer{
    display: block;
    position: relative;
    width: 70%;
-   height: 100px;
+   height: auto;
    background-color: #ffffff ;
    margin: 16px auto;
    padding: 24px;
@@ -72,8 +70,7 @@ div.cardcontainer{
 
 
 .img{
-  background: url("hulk.jpg") no-repeat center;
-  background-size: cover;
+
   position: relative;
   height: 100%;
   transition: all 1.5s ease;
@@ -103,7 +100,7 @@ div.cardcontainer{
 
 
 }
-li{
+.listitem{
   padding-bottom:8px;
   border-bottom: 1px dotted black;
 }
