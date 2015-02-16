@@ -9,7 +9,8 @@ function opaque(x)
 {
 
   
-  x.style.opacity=0.1;
+  x.style.marginTop="100px";
+
 
 }
 
@@ -17,7 +18,15 @@ function normal(x)
 {
 
   
-  x.style.opacity=1;
+  x.style.marginTop="0px";
 
 }
+document.getElementById("image").addEventListener("touchstart", function(){
+    document.getElementById("contain").style.marginTop="100px";
+});
+
+document.getElementById("image").addEventListener("touchend", function(){
+    document.getElementById("contain").style.marginTop="0px";
+});
+
 
