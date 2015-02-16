@@ -20,14 +20,17 @@ var getJSON = function(url) {
 function populateSeriesPage(){
 
   getJSON("data/serieslist.json").then(function(data) {
-    var i = 8;
-    while (i<=16){
+    var seriesindex = [8,16];
+    var seriesjson =['spider.json','hulk.json'];
+    
+    for (var x =0 ; x < seriesindex.length; x++){
+
       var elem = document.createElement("a");
-      elem.setAttribute('href','#');
+      elem.setAttribute('href','characters.html?json='+seriesjson[x]);
 
       var imgNew = document.createElement("div");
       imgNew.setAttribute('class','grid');
-      var imageurl = data.data.results[i].thumbnail.path+"."+data.data.results[i].thumbnail.extension;
+      var imageurl = data.data.results[seriesindex[x]].thumbnail.path+"."+data.data.results[seriesindex[x]].thumbnail.extension;
       var img;
       img = new Image();
       img.src = imageurl;
@@ -40,7 +43,7 @@ function populateSeriesPage(){
 
       var gridTitleNew = document.createElement("span");
       gridTitleNew.setAttribute('class','gridheader');
-      gridTitleNew.innerHTML = data.data.results[i].title;
+      gridTitleNew.innerHTML = data.data.results[seriesindex[x]].title;
 
 
       imgNew.appendChild(gridTitleNew);
@@ -50,10 +53,6 @@ function populateSeriesPage(){
 
       var section = document.getElementById("sec0");
       section.appendChild(elem);
-      
-
-      i+=8;
-         
       
     }
 
