@@ -22,10 +22,11 @@ function populateSeriesPage(){
   getJSON("data/serieslist.json").then(function(data) {
     var seriesindex = [8,16];
     var seriesjson =['spider.json','hulk.json'];
+    
     for (var x =0 ; x < seriesindex.length; x++){
 
       var elem = document.createElement("a");
-      elem.setAttribute('href','secondpage.html?json='+seriesjson[x]);
+      elem.setAttribute('href','characters.html?json='+seriesjson[x]);
 
       var imgNew = document.createElement("div");
       imgNew.setAttribute('class','grid');
