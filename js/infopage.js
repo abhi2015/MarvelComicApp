@@ -18,6 +18,7 @@ function displayCharInfo() {
     };
 
 
+
     getJSON("data/spiderman.json").then(function(data) {
 
         //console.log("reached break");
