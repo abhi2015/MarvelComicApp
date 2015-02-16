@@ -18,7 +18,7 @@ function displayCharacters() {
     };
 
 
-    getJSON("data/spiderman.json").then(function(data) {
+    getJSON("data/"+jsonfile).then(function(data) {
 
         var name = document.getElementById("character-name");
         name.innerHTML = data.data.results[0].name;
