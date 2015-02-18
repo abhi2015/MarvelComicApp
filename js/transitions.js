@@ -4,3 +4,4 @@ function scroll() {
     console.log(scrollValue);
     document.getElementById("appbar").style.top = (-(scrollValue / 3)).toString() + "px";
 };
+
