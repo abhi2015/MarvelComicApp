@@ -1,3 +1,9 @@
+function goToInfo(jsonFile,charIndex)
+{
+    alert(jsonFile+" "+charIndex);
+    window.location.assign("info.html?jsonfile="+jsonFile+"&charIndex="+charIndex);
+}
+
 function displayCharacters() {
 
     var getJSON = function(url) {
@@ -26,7 +32,6 @@ function getQueryVariable(variable) {
   for (var i=0;i<vars.length;i++) {
     var pair = vars[i].split("=");
     if (pair[0] == variable) {
-      alert("got "+pair[1]);
       return pair[1];
     }
   } 
@@ -41,13 +46,14 @@ function getQueryVariable(variable) {
         var charimage = document.getElementById("cimage");
         urlimg = data.data.results[0].thumbnail.path + ".jpg";
         console.log(urlimg);
-        alert("loading");
-        charimage.style.backgroundImage = "\"url('" + urlimg + "'')\"";
+        
+        charimage.style.backgroundImage = "url(" + urlimg + ")";
         var i = 0;
         while (data.data.results[i].name != undefined) {
             console.log(data.data.results[i].name);
             var elem = document.createElement("div");
-            elem.class = "element";
+            elem.setAttribute("class","element");
+            elem.setAttribute("onclick","goToInfo('"+jsonfile+"',"+i+")");
 
             var imgNew = document.createElement("div");
             imgNew.setAttribute('class','photo')

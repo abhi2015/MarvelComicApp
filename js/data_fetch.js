@@ -21,25 +21,20 @@ function populateSeriesPage(){
 
   getJSON("data/serieslist.json").then(function(data) {
     var seriesindex = [8,16];
-    var seriesjson =['spider.json','hulk.json'];
+    var seriesjson =['hulk.json','spider.json'];
     
     for (var x =0 ; x < seriesindex.length; x++){
 
       var elem = document.createElement("a");
-      elem.setAttribute('href','characters.html?json='+seriesjson[x]);
+      elem.setAttribute('href','characters.html?jsonfile='+seriesjson[x]);
 
       var imgNew = document.createElement("div");
       imgNew.setAttribute('class','grid');
       var imageurl = data.data.results[seriesindex[x]].thumbnail.path+"."+data.data.results[seriesindex[x]].thumbnail.extension;
-      var img;
-      img = new Image();
-      img.src = imageurl;
-      img.onload = function() {
+      
 
-        imgNew.style.backgroundImage = "url(" + img.src + ")";
-        
-      };
-
+      imgNew.style.backgroundImage = "url(" + imageurl + ")";
+      
 
       var gridTitleNew = document.createElement("span");
       gridTitleNew.setAttribute('class','gridheader');
