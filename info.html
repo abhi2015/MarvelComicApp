@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <title>Template</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/img.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/appbar.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="js/transitions.js"></script>
+  <script type="text/javascript" src="js/infopage.js"></script>
+  
+
+</head>
+
+<body onload="displayCharInfo()">
+    <header id="appbar" class="app-bar paper-toolbar paper-shadow">
+        <div class="app-bar-container paper-toolbar">
+            <button class="menu"><img src="img/back.png" alt="Menu">
+            </button>
+            <h1 class="appbar-heading">Character</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="imgcontainer" id="image" onmouseover="opaque(contain)" onmouseout="normal(contain)">
+            <div class="img" id="charimg"></div>
+            <div class="text" id="charname">
+                <p id="charactername"></p>
+            </div>
+
+            <div class="imgbutton">
+                        <button onclick="playAudio()" type="button" class="button button-ripple button-round">
+
+                            <div class="triangle"></div>
+                        </button>
+                    </div>
+
+        </div>
+        <div class="cardcontainer" id="contain">
+            <div class=" card1"> <b>Bio</b>
+                <p class="charinfo" id="charinfo"></p>
+            </div>
+            <div class=" card2">
+
+                <ul id="charmovies"><span>List of series</span>
+                    <li class="listitem"></li>
+
+                </ul>
+            </div>
+
+        </div>
+        </div>
+
+  
+
+ 
+
+
+</body>
+
+</html>
