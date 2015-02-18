@@ -1,6 +1,5 @@
 function goToInfo(jsonFile,charIndex)
 {
-    alert(jsonFile+" "+charIndex);
     window.location.assign("info.html?jsonfile="+jsonFile+"&charIndex="+charIndex);
 }
 
