@@ -320,7 +320,6 @@
         "urls": [
           {
             "type": "detail",
-<<<<<<< HEAD
             "url": "http://marvel.com/characters/2727/mary_jane_watson?utm_campaign=apiRef&utm_source=f3b41b0e48bf394e92a8709a1c57d663"
           },
           {
@@ -330,17 +329,6 @@
           {
             "type": "comiclink",
             "url": "http://marvel.com/comics/characters/1009708/mary_jane_watson?utm_campaign=apiRef&utm_source=f3b41b0e48bf394e92a8709a1c57d663"
-=======
-            "url": "http://marvel.com/characters/2727/mary_jane_watson?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
-          },
-          {
-            "type": "wiki",
-            "url": "http://marvel.com/universe/Watson,_Mary_Jane?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
-          },
-          {
-            "type": "comiclink",
-            "url": "http://marvel.com/comics/characters/1009708/mary_jane_watson?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
->>>>>>> origin/develop
           }
         ]
       },
@@ -597,7 +585,6 @@
         "urls": [
           {
             "type": "detail",
-<<<<<<< HEAD
             "url": "http://marvel.com/characters/2783/may_parker?utm_campaign=apiRef&utm_source=f3b41b0e48bf394e92a8709a1c57d663"
           },
           {
@@ -607,17 +594,6 @@
           {
             "type": "comiclink",
             "url": "http://marvel.com/comics/characters/1009490/may_parker?utm_campaign=apiRef&utm_source=f3b41b0e48bf394e92a8709a1c57d663"
-=======
-            "url": "http://marvel.com/characters/2783/may_parker?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
-          },
-          {
-            "type": "wiki",
-            "url": "http://marvel.com/universe/Parker%2C_May_%28Aunt_May%29?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
-          },
-          {
-            "type": "comiclink",
-            "url": "http://marvel.com/comics/characters/1009490/may_parker?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
->>>>>>> origin/develop
           }
         ]
       },
@@ -1002,7 +978,6 @@
         "urls": [
           {
             "type": "detail",
-<<<<<<< HEAD
             "url": "http://marvel.com/characters/54/spider-man?utm_campaign=apiRef&utm_source=f3b41b0e48bf394e92a8709a1c57d663"
           },
           {
@@ -1012,17 +987,6 @@
           {
             "type": "comiclink",
             "url": "http://marvel.com/comics/characters/1009610/spider-man?utm_campaign=apiRef&utm_source=f3b41b0e48bf394e92a8709a1c57d663"
-=======
-            "url": "http://marvel.com/characters/54/spider-man?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
-          },
-          {
-            "type": "wiki",
-            "url": "http://marvel.com/universe/Spider-Man_(Peter_Parker)?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
-          },
-          {
-            "type": "comiclink",
-            "url": "http://marvel.com/comics/characters/1009610/spider-man?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
->>>>>>> origin/develop
           }
         ]
       },
@@ -1335,7 +1299,6 @@
         "urls": [
           {
             "type": "detail",
-<<<<<<< HEAD
             "url": "http://marvel.com/characters/2400/toxin?utm_campaign=apiRef&utm_source=f3b41b0e48bf394e92a8709a1c57d663"
           },
           {
@@ -1345,17 +1308,6 @@
           {
             "type": "comiclink",
             "url": "http://marvel.com/comics/characters/1009692/toxin_eddie_brock?utm_campaign=apiRef&utm_source=f3b41b0e48bf394e92a8709a1c57d663"
-=======
-            "url": "http://marvel.com/characters/2400/toxin?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
-          },
-          {
-            "type": "wiki",
-            "url": "http://marvel.com/universe/Brock,_Eddie?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
-          },
-          {
-            "type": "comiclink",
-            "url": "http://marvel.com/comics/characters/1009692/toxin_eddie_brock?utm_campaign=apiRef&utm_source=6506279e79b884fa4acd3c468489b293"
->>>>>>> origin/develop
           }
         ]
       }
