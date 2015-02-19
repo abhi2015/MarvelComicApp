@@ -55,6 +55,7 @@ section .element
 	height:auto;
 	border-radius:50%;
 	background-color:rgb(168,164,164);
+	background-size: contain;
 	cursor:pointer;
 	float:left;
 	padding-top:15%;
