@@ -48,7 +48,9 @@ function getQueryVariable(variable) {
         
         charimage.style.backgroundImage = "url(" + urlimg + ")";
         var i = 0;
-        while (data.data.results[i].name != undefined) {
+        while (i<19) {
+        
+        //while (data.data.results[i] != undefined) {
             console.log(data.data.results[i].name);
             var elem = document.createElement("div");
             elem.setAttribute("class","element");
@@ -57,6 +59,11 @@ function getQueryVariable(variable) {
             var imgNew = document.createElement("div");
             imgNew.setAttribute('class','photo')
 
+
+            var imageurl = data.data.results[i].thumbnail.path+"."+data.data.results[i].thumbnail.extension;
+           
+            imgNew.style = "background:url(" + imageurl + ")"+" repeat scroll 0% 0% /contain transparent;";
+            
             var characterNameNew = document.createElement("span");
             characterNameNew.setAttribute('class','character');
 

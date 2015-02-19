@@ -20,8 +20,8 @@ var getJSON = function(url) {
 function populateSeriesPage(){
 
   getJSON("data/serieslist.json").then(function(data) {
-    var seriesindex = [8,16];
-    var seriesjson =['hulk.json','spider.json'];
+    var seriesindex = [16,8];
+    var seriesjson =['spider.json','hulk.json'];
     
     for (var x =0 ; x < seriesindex.length; x++){
 
