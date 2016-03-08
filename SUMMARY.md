@@ -2,5 +2,5 @@
 
 * Summary
 * [Pipes](pipes.md)
-* Typescript
+* [Typescript](typescript.md)
 
