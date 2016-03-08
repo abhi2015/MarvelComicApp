@@ -5,5 +5,5 @@
 * [Pipes](pipes.md)
 * [Typescript](typescript.md)
 * [Services&DI](services&di.md)
-* Bootstraping
+* [Bootstraping](bootstraping.md)
 
