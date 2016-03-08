@@ -1,5 +1,5 @@
 # Summary
 
 * Summary
-* Pipes
+* [Pipes](pipes.md)
 
